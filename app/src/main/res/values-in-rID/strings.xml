@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cerita Dicoding</string>
+
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+
+    <!-- Login form -->
+    <string name="login_here">Silahkan Masuk,</string>
+    <string name="label_email">Email</string>
+    <string name="input_email">Ketik emailmu disini</string>
+    <string name="label_password">Kata sandi</string>
+    <string name="input_password">Ketik kata sandimu disini</string>
+    <string name="login_button">Masuk</string>
+    <string name="account">Belum punya akun?</string>
+    <string name="registration">Daftar</string>
+
+    <!-- registration form -->
+    <string name="register_here">Mendaftar disini,</string>
+    <string name="name">Name</string>
+    <string name="input_name_here">Masukan nama anda disini</string>
+    <string name="register">Daftar</string>
+    <string name="already_account">Sudah punya akun?</string>
+
+    <string name="cover_story">cover story</string>
+    <string name="add_story">Tambah cerita</string>
+    <string name="preview_image">preview image</string>
+    <string name="second_ago">Detik lalu</string>
+    <string name="minutes_ago">Menit lalu</string>
+    <string name="hours_ago">Jam lalu</string>
+    <string name="days_ago">Hari lalu</string>
+    <string name="description_story">Deskripsikan cerita</string>
+
+    <string name="invalid_email">Email tidak valid</string>
+    <string name="invalid_password">Password minimal 6 karakter</string>
+    <string name="invalid_name">Nama tidak valid</string>
+    <string name="avatar_profile">foto profil</string>
+    <string name="add_new_story">Cerita Baru</string>
+    <string name="input_description_story">Deskripsikan cerita anda disini</string>
+    <string name="input_file_first">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="logout">Keluar</string>
+
+    <!-- Alert Builder Message -->
+    <string name="network_unavailable">Jaringan saat ini tidak tersedia</string>
+    <string name="title_register_success">PENDAFTARAN BERHASIL</string>
+    <string name="body_register_success">Kamu akan di arahkan ke menu masuk.</string>
+    <string name="title_register_failed">PENDAFTARAN GAGAL</string>
+    <string name="title_login_failed">LOGIN GAGAL</string>
+    <string name="title_success_upload">BERHASIL MENGUNGGAH CERITA</string>
+    <string name="message_success_upload">Cerita anda berhasil di unggah</string>
+    <string name="title_failed_upload">GAGAL MENGUNGGAH CERITA</string>
+    <string name="message_failed_upload">Cerita anda gagal di unggah</string>
+    <string name="title_process_upload">UNGGAH CERITA</string>
+    <string name="message_process_upload">Apakah anda ingin menambah lokasi saat ini pada cerita ?</string>
+    <string name="button_ok">OKE</string>
+    <string name="button_no">TIDAK</string>
+    <string name="button_cancel">Batalkan</string>
+    <string name="error_banner">error banner</string>
+    <string name="button_try_again">Try again</string>
+    <string name="add_story_location">Tambah Lokasi Cerita</string>
+    <string name="use_current_location">Gunakan lokasi saat ini</string>
+
+
+    <string name="detail_story">Detail Cerita</string>
+    <string name="access">Tidak mendapat izin</string>
+
+    <string name="language">Bahasa</string>
+    <string name="choose_file">Silahkan pilih gambar yang benar</string>
+
+    <!-- API Error & Response Code -->
+    <string name="API_error_header_token">Token tidak valid, Silahkan login kembali</string>
+    <string name="API_error_large_payload">Gambar melebihi 1 MB, silahkan coba gambar lain</string>
+
+    <string name="version_app">Versi 1.0</string>
+    <string name="create_story">Buat cerita</string>
+
+    <string name="title_home">Beranda</string>
+    <string name="title_maps">Peta</string>
+    <string name="title_profile">Profil</string>
+
+    <string name="title_location_info">Lokasi tidak aktif</string>
+    <string name="message_location_info">Di mohon agar memberikan izin untuk akses lokasi anda.</string>
+
+    <!-- Preference Titles -->
+    <string name="title_about">Tentang aplikasi</string>
+    <string name="set_theme">theme</string>
+    <string name="icon_location">icon_location</string>
+    <string name="confirm_logout">Apa anda yakin ingin keluar ?</string>
+    <string name="set_language">Inggris</string>
+    <string name="choose_location">Pilih lokasi</string>
+    <string name="select_location">Pilih lokasi dulu atau batalkan</string>
+    <string name="my_location">Lokasi anda :</string>
+    <string name="location_null">Lokasi tidak diketahui</string>
+    <string name="uploaded_on">Di unggah</string>
+    <string name="address">Alamat</string>
+    <string name="summary">Ringkasan</string>
+    <string name="exit_app">Tekan lagi untuk keluar dari aplikasi</string>
+
+</resources>

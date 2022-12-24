@@ -1,0 +1,43 @@
+MENU LOGIN :
+1. Ketika berhasil membuat permintaan POST :
+	1.1. Mengembalikan Result.Success
+	1.2. Memastikan data tidak null
+
+2. Ketika gagal membuat permintaan POST :
+	1.1. Mengembalikan Result.Error
+	1.2. Memastikan data tidak null
+
+MENU REGISTER :
+1. Ketika berhasil membuat permintaan POST :
+	1.1. Mengembalikan Result.Success
+	1.2. Memastikan data tidak null
+
+2. Ketika gagal membuat permintaan POST :
+	1.1. Mengembalikan Result.Error
+	1.2. Memastikan data tidak null
+
+MENU UTAMA :
+A. HOME FRAGMENT (List Story) :
+	1. Ketika berhasil membuat permintaan GET :
+		1.1. Mengembalikan Result.Success
+		1.2. Memastikan data tidak null
+		1.3. Memastikan jumlah data sesuai yang diharapkan
+
+B. MAPS FRAGMENT (Maps Story) :
+	1. Ketika berhasil membuat permintaan GET :
+		1.1. Mengembalikan Result.Success
+		1.2. Memastikan data tidak null
+		1.3. Memastikan jumlah data sesuai yang diharapkan
+
+	2. Ketika gagal membuat permintaan data :
+		1.1. Mengembalikan Result.Error
+		1.2. Memastikan data tidak null
+
+MENU ADD STORY :
+1. Ketika berhasil membuat permintaan POST :
+	1.1. Mengembalikan Result.Success
+	1.2. Memastikan data tidak null
+
+2. Ketika gagal membuat permintaan POST :
+	1.1. Mengembalikan Result.Error
+	1.2. Memastikan data tidak null

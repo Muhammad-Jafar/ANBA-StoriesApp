@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Dicoding Stories</string>
+
+    <string name="camera">Kamera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+
+    <!-- Login form -->
+    <string name="login_here">Login here,</string>
+    <string name="label_email">Email</string>
+    <string name="input_email">Input email here</string>
+    <string name="label_password">Password</string>
+    <string name="input_password">Input password here</string>
+    <string name="login_button">Log in</string>
+    <string name="account">Don\'t have an account?</string>
+    <string name="registration">Create</string>
+
+    <!-- registration form -->
+    <string name="register_here">Sign up here,</string>
+    <string name="name">Name</string>
+    <string name="input_name_here">Input name here</string>
+    <string name="register">Create</string>
+    <string name="already_account">Already have an account?</string>
+
+    <string name="cover_story">cover story</string>
+    <string name="add_story">add story</string>
+
+    <string name="preview_image">preview image</string>
+    <string name="second_ago">second ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="days_ago">days ago</string>
+    <string name="description_story">Description Story</string>
+
+    <string name="invalid_email">Invalid email</string>
+    <string name="invalid_password">Password must be > 6 Character</string>
+    <string name="invalid_name">Invalid name</string>
+    <string name="avatar_profile">avatar profile</string>
+    <string name="add_new_story">New Story</string>
+    <string name="input_description_story">Input description story here</string>
+    <string name="input_file_first">Please input the picture first.</string>
+    <string name="logout">Log out</string>
+
+    <!-- Alert Builder Message -->
+    <string name="network_unavailable">Network Unavailable</string>
+    <string name="title_register_success">REGISTER SUCCESS</string>
+    <string name="body_register_success">You will redirect to the login form.</string>
+    <string name="title_register_failed">REGISTER FAILED</string>
+    <string name="title_login_failed">LOGIN FAILED</string>
+    <string name="title_success_upload">UPLOAD STORY SUCCESS</string>
+    <string name="message_success_upload">Story has been uploaded successfully</string>
+    <string name="title_failed_upload">UPLOAD STORY FAILED</string>
+    <string name="message_failed_upload">Your story failed to upload</string>
+    <string name="title_process_upload">UPLOAD STORY</string>
+    <string name="message_process_upload">Would you like to add recent location on your story ?</string>
+    <string name="button_ok">OK</string>
+    <string name="button_no">NO</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_try_again">Try again</string>
+    <string name="add_story_location">Add Story Location</string>
+    <string name="use_current_location">Use current location</string>
+
+
+    <string name="detail_story">Detail Story</string>
+    <string name="access">Access Denied</string>
+
+    <string name="language">Language</string>
+    <string name="error_banner">error banner</string>
+
+    <string name="choose_file">Please choose the right image</string>
+
+    <!-- API Error & Response Code -->
+    <string name="API_error_header_token">You\'re Unauthorized, please re-login for renewal Token</string>
+    <string name="API_error_large_payload">Your image exceeds the maximum limit of 1 MB file, please change the image</string>
+
+    <string name="version_app">Version 1.0</string>
+    <string name="create_story">Create story</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_maps">Maps</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="title_location_info">Location disable</string>
+    <string name="message_location_info">Please, enable your GPS to access your location properly.</string>
+
+    <!-- Preference Titles -->
+    <string name="title_about">App info</string>
+    <string name="set_theme">theme</string>
+    <string name="icon_location">icon_location</string>
+    <string name="confirm_logout">Are you sure want to log out ?</string>
+    <string name="set_language">English</string>
+    <string name="choose_location">Choose location</string>
+    <string name="select_location">Select the location first or cancel</string>
+    <string name="my_location">Your Location :</string>
+    <string name="location_null">Location Unknown</string>
+    <string name="uploaded_on">Uploaded on</string>
+    <string name="address">Address</string>
+    <string name="summary">Summary</string>
+    <string name="exit_app">Press back again to exit app</string>
+
+</resources>

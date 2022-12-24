@@ -1,0 +1,137 @@
+<resources>
+
+    <style name="Theme.Stories" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_dark_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_dark_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_dark_error</item>
+        <item name="colorErrorContainer">@color/md_theme_dark_errorContainer</item>
+        <item name="colorOnError">@color/md_theme_dark_onError</item>
+        <item name="colorOnErrorContainer">@color/md_theme_dark_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_theme_dark_background</item>
+        <item name="colorOnBackground">@color/md_theme_dark_onBackground</item>
+        <item name="colorSurface">@color/md_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_dark_outline</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_dark_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/md_theme_dark_inverseSurface</item>
+        <item name="elevationOverlayColor">@color/md_theme_dark_surfaceTint</item>
+        <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
+
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <!-- Toolbar & Tabs Theme -->
+    <style name="ToolbarTheme" parent="ThemeOverlay.Material3.Toolbar.Surface">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <!-- Custom Fab Theme -->
+    <style name="CustomExtendedFab" parent="Widget.Material3.ExtendedFloatingActionButton.Icon.Primary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!-- Custom Bottom Nav Bar Theme -->
+    <style name="CustomBottomNavBar" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="labelVisibilityMode">selected</item>
+        <item name="itemPaddingTop">8dp</item>
+        <item name="itemPaddingBottom">8dp</item>
+        <item name="iconSize">16dp</item>
+        <item name="itemActiveIndicatorStyle">@style/CustomTextInActive</item>
+        <item name="itemTextAppearanceInactive">@style/CustomTextInActive</item>
+        <item name="itemTextAppearanceActive">@style/CustomTextActive</item>
+    </style>
+
+    <style name="CustomTextInActive" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/poppins_extralight</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="CustomTextActive" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- Text UI Theme -->
+    <style name="HeadingApp" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="AuthTitleContent" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BodyTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BodyContent" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/poppins_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AboutTitle" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <!-- First Button Theme -->
+    <style name="CustomFilledButton" parent="@style/Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="shapeAppearance">@style/ShapeCustomFilledButton</item>
+    </style>
+
+    <style name="ShapeCustomFilledButton" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+    </style>
+
+    <!-- Second Button Theme -->
+    <style name="CustomTextButton" parent="@style/Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="shapeAppearance">@style/ShapeCustomFilledButton</item>
+    </style>
+
+</resources>

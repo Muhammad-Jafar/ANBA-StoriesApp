@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.main.about.AboutActivity">
+
+    <TextView
+        android:id="@+id/title_app"
+        style="@style/AboutTitle"
+        android:layout_marginTop="128dp"
+        android:text="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/versionTitle"
+        style="@style/BodyTitle"
+        android:text="@string/version_app"
+        app:layout_constraintTop_toBottomOf="@id/title_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoApp"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_about"
+        app:layout_constraintEnd_toEndOf="@+id/versionTitle"
+        app:layout_constraintStart_toStartOf="@+id/versionTitle"
+        app:layout_constraintTop_toBottomOf="@+id/versionTitle" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
